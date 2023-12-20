@@ -1,13 +1,22 @@
 0x12. JavaScript - Warm up
-JavaScript
- By: Guillaume
- Weight: 1
- Project over - took place from Dec 11, 2023 4:00 AM to Dec 12, 2023 4:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/113 mandatory & 0.0/29 optional
-Altogether:  0.0%
-Mandatory: 0.0%
+==========================
+
+-   By Guillaume
+-   Weight: 1
+
+Background Context
+------------------
+
+JavaScript is used for many things. Here, you will use JavaScript for 2 reasons:
+
+-   Scripting (same as we did with Python)
+-   Web front-end
+
+For the moment, and for learning all basic concepts of this language, we will do some scripting. After, we will make our AirBnB project dynamic by using Javascript and JQuery.
+
+![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/303/Javascript-535.png.jpeg)
+
+Resources
 Optional: 0.0%
 Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
 Background Context
