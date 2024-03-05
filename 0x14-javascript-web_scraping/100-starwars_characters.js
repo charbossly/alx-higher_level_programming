@@ -1,9 +1,9 @@
-#!/usr/bin/node
-const request = require('request');
-const { argv } = require('process');
+#!/usr/bin/env node
+const request = require("request");
+const { argv } = require("process");
 
-const BaseUrl = 'https://swapi-api.hbtn.io/api/films/';
-function MakeRequest (url) {
+const BaseUrl = "https://swapi-api.hbtn.io/api/films/";
+function MakeRequest(url) {
   return new Promise(function (resolve, reject) {
     request(url, (error, response, body) => {
       if (!error && response.statusCode === 200) {
@@ -15,7 +15,7 @@ function MakeRequest (url) {
   });
 }
 
-async function main () {
+async function main() {
   const movie = await MakeRequest(BaseUrl + argv[2]);
   const characters = JSON.parse(movie).characters;
   characters.forEach(async function (element) {
